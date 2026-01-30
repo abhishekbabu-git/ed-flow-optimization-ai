@@ -1,6 +1,8 @@
+AI-based system to optimize Emergency Department patient flow using predictive analytics and operational dashboards.
+
 AI-Based Emergency Department Flow Optimization System
 Project Overview
-This project explores how Artificial Intelligence can be used to improve patient flow management in hospital Emergency Departments, focusing on operational efficiency rather than clinical decision-making.
+This project explores how Artificial Intelligence can be used to improve patient flow management in University Hospital Limerick Emergency Departments, focusing on operational efficiency rather than clinical decision-making.
 The system is designed as a digital operations assistant to help hospitals reduce overcrowding, waiting times, and trolley congestion.
 
 Project Aim
