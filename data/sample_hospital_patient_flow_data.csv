@@ -1,0 +1,501 @@
+patient_id,arrival_time,triage_level,department,doctor,wait_time_minutes,treatment_time_minutes,total_time_minutes,outcome
+P0001,2026-01-30 19:03:00,Medium,Neurology,Dr. O'Brien,17,31,48,Discharged
+P0002,2026-02-19 22:56:00,High,Neurology,Dr. Khan,98,87,185,Transferred
+P0003,2026-02-21 19:29:00,Critical,Cardiology,Dr. Patel,67,116,183,Admitted
+P0004,2026-01-28 18:23:00,Critical,Pediatrics,Dr. Patel,138,93,231,Transferred
+P0005,2026-01-30 02:03:00,Low,Cardiology,Dr. Smith,53,29,82,Admitted
+P0006,2026-02-03 14:14:00,Medium,Neurology,Dr. Khan,75,13,88,Admitted
+P0007,2026-01-20 04:39:00,Critical,Pediatrics,Dr. Patel,168,79,247,Transferred
+P0008,2026-01-16 00:53:00,Low,Neurology,Dr. Murphy,15,137,152,Discharged
+P0009,2026-02-17 23:20:00,Medium,General Medicine,Dr. Murphy,180,161,341,Discharged
+P0010,2026-01-30 07:44:00,Critical,Neurology,Dr. Murphy,77,16,93,Admitted
+P0011,2026-01-22 17:34:00,Medium,General Medicine,Dr. Murphy,167,126,293,Admitted
+P0012,2026-01-10 17:31:00,Medium,General Medicine,Dr. Khan,57,188,245,Transferred
+P0013,2026-01-12 01:30:00,Low,Orthopedics,Dr. Khan,94,52,146,Discharged
+P0014,2026-01-29 19:19:00,Low,Cardiology,Dr. Khan,166,113,279,Discharged
+P0015,2026-02-21 04:00:00,Critical,Cardiology,Dr. O'Brien,68,173,241,Admitted
+P0016,2026-01-08 11:32:00,Critical,General Medicine,Dr. Patel,38,229,267,Transferred
+P0017,2026-02-01 19:39:00,Critical,General Medicine,Dr. Patel,167,149,316,Admitted
+P0018,2026-02-21 22:45:00,Low,Cardiology,Dr. Patel,40,236,276,Discharged
+P0019,2026-01-06 23:40:00,High,General Medicine,Dr. Patel,35,169,204,Admitted
+P0020,2026-02-13 00:37:00,High,General Medicine,Dr. O'Brien,10,233,243,Transferred
+P0021,2026-02-21 18:10:00,High,Orthopedics,Dr. Khan,16,167,183,Transferred
+P0022,2026-01-31 18:59:00,Critical,Orthopedics,Dr. Khan,125,196,321,Discharged
+P0023,2026-01-26 12:24:00,High,Neurology,Dr. Murphy,16,68,84,Admitted
+P0024,2026-01-01 17:50:00,High,Neurology,Dr. Khan,149,125,274,Transferred
+P0025,2026-01-16 03:16:00,Medium,Cardiology,Dr. Patel,68,140,208,Discharged
+P0026,2026-02-04 06:07:00,Low,Neurology,Dr. Smith,70,193,263,Admitted
+P0027,2026-01-22 06:16:00,Medium,Neurology,Dr. Murphy,130,116,246,Admitted
+P0028,2026-01-11 19:24:00,Medium,General Medicine,Dr. Murphy,167,127,294,Discharged
+P0029,2026-01-14 01:11:00,Low,Neurology,Dr. Smith,122,52,174,Discharged
+P0030,2026-01-06 21:22:00,Low,Orthopedics,Dr. Khan,43,80,123,Discharged
+P0031,2026-01-06 16:43:00,Low,Cardiology,Dr. Murphy,105,68,173,Transferred
+P0032,2026-01-05 07:44:00,Medium,General Medicine,Dr. Khan,154,171,325,Discharged
+P0033,2026-02-11 17:41:00,Medium,General Medicine,Dr. Murphy,151,136,287,Discharged
+P0034,2026-02-20 03:22:00,Medium,Cardiology,Dr. Patel,38,133,171,Admitted
+P0035,2026-02-15 12:27:00,High,Orthopedics,Dr. Khan,27,109,136,Admitted
+P0036,2026-01-23 08:34:00,Low,Neurology,Dr. Smith,17,104,121,Admitted
+P0037,2026-01-14 11:12:00,Low,Orthopedics,Dr. Murphy,56,223,279,Transferred
+P0038,2026-01-28 01:15:00,Critical,Cardiology,Dr. Khan,92,31,123,Discharged
+P0039,2026-01-25 22:53:00,Low,Pediatrics,Dr. Khan,12,213,225,Admitted
+P0040,2026-01-08 13:11:00,High,Neurology,Dr. Murphy,10,211,221,Discharged
+P0041,2026-02-06 02:04:00,Medium,Neurology,Dr. O'Brien,75,223,298,Admitted
+P0042,2026-01-18 10:01:00,Medium,Pediatrics,Dr. Patel,88,183,271,Admitted
+P0043,2026-01-15 21:00:00,Critical,Neurology,Dr. Murphy,6,72,78,Discharged
+P0044,2026-01-22 08:08:00,High,Pediatrics,Dr. Patel,167,133,300,Admitted
+P0045,2026-02-03 01:47:00,Medium,Orthopedics,Dr. Smith,33,191,224,Discharged
+P0046,2026-01-06 07:49:00,High,General Medicine,Dr. Patel,115,167,282,Discharged
+P0047,2026-01-12 22:44:00,High,General Medicine,Dr. Khan,47,131,178,Admitted
+P0048,2026-02-06 05:11:00,Medium,Neurology,Dr. Murphy,166,27,193,Admitted
+P0049,2026-01-31 15:53:00,High,Pediatrics,Dr. Khan,41,28,69,Discharged
+P0050,2026-01-22 10:53:00,Critical,Orthopedics,Dr. Smith,8,178,186,Transferred
+P0051,2026-02-11 22:22:00,Low,Pediatrics,Dr. Khan,175,164,339,Admitted
+P0052,2026-01-08 07:11:00,Medium,General Medicine,Dr. O'Brien,171,185,356,Discharged
+P0053,2026-02-15 04:06:00,Low,Orthopedics,Dr. O'Brien,116,142,258,Admitted
+P0054,2026-01-29 23:50:00,Medium,General Medicine,Dr. O'Brien,67,68,135,Admitted
+P0055,2026-01-22 12:43:00,Critical,Pediatrics,Dr. Patel,15,103,118,Transferred
+P0056,2026-02-04 23:14:00,Medium,Cardiology,Dr. Khan,162,92,254,Discharged
+P0057,2026-01-17 01:54:00,Medium,Neurology,Dr. O'Brien,105,223,328,Discharged
+P0058,2026-01-08 12:51:00,High,Pediatrics,Dr. Khan,80,50,130,Transferred
+P0059,2026-01-22 16:56:00,High,Cardiology,Dr. Smith,109,13,122,Discharged
+P0060,2026-01-27 20:05:00,Medium,Neurology,Dr. Patel,60,230,290,Transferred
+P0061,2026-01-16 07:22:00,High,Pediatrics,Dr. Khan,142,204,346,Discharged
+P0062,2026-02-27 08:08:00,Critical,Cardiology,Dr. Patel,96,131,227,Discharged
+P0063,2026-01-15 18:32:00,High,General Medicine,Dr. Smith,26,236,262,Admitted
+P0064,2026-02-21 13:21:00,High,General Medicine,Dr. Smith,22,158,180,Discharged
+P0065,2026-02-05 16:23:00,Low,Neurology,Dr. Khan,115,179,294,Admitted
+P0066,2026-01-27 17:43:00,Medium,General Medicine,Dr. O'Brien,109,214,323,Transferred
+P0067,2026-02-11 12:22:00,Medium,General Medicine,Dr. Murphy,175,55,230,Transferred
+P0068,2026-01-03 07:43:00,High,General Medicine,Dr. Patel,175,106,281,Transferred
+P0069,2026-02-17 02:59:00,Critical,Neurology,Dr. Khan,142,28,170,Admitted
+P0070,2026-01-24 07:15:00,Medium,Pediatrics,Dr. Smith,150,229,379,Transferred
+P0071,2026-02-21 10:14:00,High,Orthopedics,Dr. Khan,83,219,302,Admitted
+P0072,2026-01-17 13:43:00,Low,General Medicine,Dr. O'Brien,130,50,180,Discharged
+P0073,2026-02-03 05:50:00,Critical,Orthopedics,Dr. Murphy,151,150,301,Discharged
+P0074,2026-01-25 08:59:00,Medium,Cardiology,Dr. Patel,92,228,320,Transferred
+P0075,2026-01-03 16:42:00,Critical,General Medicine,Dr. Smith,92,32,124,Admitted
+P0076,2026-02-09 00:07:00,High,Orthopedics,Dr. Khan,115,164,279,Discharged
+P0077,2026-01-06 23:34:00,Critical,General Medicine,Dr. Khan,136,59,195,Discharged
+P0078,2026-01-01 12:15:00,High,Orthopedics,Dr. Smith,63,114,177,Admitted
+P0079,2026-01-03 11:29:00,Low,Orthopedics,Dr. Khan,146,33,179,Discharged
+P0080,2026-01-23 01:21:00,High,General Medicine,Dr. O'Brien,155,29,184,Transferred
+P0081,2026-02-05 03:19:00,Low,Neurology,Dr. Murphy,34,27,61,Transferred
+P0082,2026-02-18 06:06:00,Low,Pediatrics,Dr. O'Brien,176,165,341,Discharged
+P0083,2026-01-05 08:29:00,Critical,Cardiology,Dr. Khan,65,75,140,Admitted
+P0084,2026-01-29 01:30:00,Low,Pediatrics,Dr. Smith,130,188,318,Discharged
+P0085,2026-01-02 02:54:00,High,Neurology,Dr. Khan,64,139,203,Discharged
+P0086,2026-01-11 04:46:00,High,Orthopedics,Dr. Patel,115,128,243,Transferred
+P0087,2026-01-20 05:26:00,High,Orthopedics,Dr. Khan,84,10,94,Admitted
+P0088,2026-02-28 16:52:00,Medium,Orthopedics,Dr. Patel,68,36,104,Discharged
+P0089,2026-01-07 14:31:00,Critical,Orthopedics,Dr. Smith,130,110,240,Admitted
+P0090,2026-01-24 10:23:00,Low,Orthopedics,Dr. Patel,98,119,217,Discharged
+P0091,2026-01-22 07:19:00,High,Pediatrics,Dr. O'Brien,124,164,288,Admitted
+P0092,2026-01-17 23:56:00,Low,Orthopedics,Dr. Patel,169,107,276,Admitted
+P0093,2026-02-13 20:45:00,High,Pediatrics,Dr. O'Brien,107,226,333,Admitted
+P0094,2026-01-28 22:52:00,Low,Orthopedics,Dr. O'Brien,98,86,184,Transferred
+P0095,2026-02-03 23:07:00,Low,Orthopedics,Dr. Murphy,116,185,301,Transferred
+P0096,2026-02-23 09:49:00,Critical,Pediatrics,Dr. O'Brien,159,12,171,Discharged
+P0097,2026-01-27 17:29:00,Critical,General Medicine,Dr. Smith,90,195,285,Discharged
+P0098,2026-02-21 22:23:00,High,Orthopedics,Dr. Smith,103,112,215,Admitted
+P0099,2026-02-05 21:59:00,High,General Medicine,Dr. Murphy,168,88,256,Transferred
+P0100,2026-02-23 19:42:00,Medium,Neurology,Dr. Smith,40,65,105,Admitted
+P0101,2026-02-13 14:01:00,Critical,Neurology,Dr. Smith,53,204,257,Transferred
+P0102,2026-02-20 02:29:00,High,General Medicine,Dr. Patel,53,33,86,Admitted
+P0103,2026-02-12 06:32:00,High,Cardiology,Dr. Smith,155,151,306,Discharged
+P0104,2026-01-26 23:41:00,Low,Orthopedics,Dr. O'Brien,128,148,276,Admitted
+P0105,2026-01-02 09:20:00,High,Cardiology,Dr. Smith,171,35,206,Transferred
+P0106,2026-01-21 18:54:00,High,Cardiology,Dr. O'Brien,157,174,331,Discharged
+P0107,2026-02-25 10:03:00,Low,Neurology,Dr. Patel,161,94,255,Transferred
+P0108,2026-01-13 23:03:00,Medium,Neurology,Dr. Smith,136,46,182,Admitted
+P0109,2026-02-26 06:34:00,High,Orthopedics,Dr. Smith,9,175,184,Transferred
+P0110,2026-01-03 03:12:00,Medium,Pediatrics,Dr. O'Brien,101,207,308,Transferred
+P0111,2026-01-08 15:11:00,Medium,Pediatrics,Dr. O'Brien,108,74,182,Admitted
+P0112,2026-01-08 04:58:00,High,Neurology,Dr. Patel,141,109,250,Discharged
+P0113,2026-02-04 10:12:00,Low,Pediatrics,Dr. O'Brien,134,56,190,Transferred
+P0114,2026-02-25 23:25:00,Medium,Pediatrics,Dr. O'Brien,152,182,334,Transferred
+P0115,2026-01-12 05:45:00,Medium,Orthopedics,Dr. O'Brien,83,149,232,Admitted
+P0116,2026-03-01 18:16:00,Low,General Medicine,Dr. O'Brien,21,169,190,Discharged
+P0117,2026-01-21 00:26:00,High,Pediatrics,Dr. Smith,46,12,58,Transferred
+P0118,2026-01-22 08:30:00,Medium,Neurology,Dr. Khan,97,230,327,Transferred
+P0119,2026-02-26 14:33:00,Medium,Orthopedics,Dr. Khan,145,95,240,Transferred
+P0120,2026-02-02 20:27:00,Critical,General Medicine,Dr. Khan,162,133,295,Discharged
+P0121,2026-02-22 02:41:00,Medium,Cardiology,Dr. Khan,178,132,310,Discharged
+P0122,2026-02-04 02:17:00,Medium,Orthopedics,Dr. O'Brien,37,56,93,Transferred
+P0123,2026-01-27 00:42:00,Medium,General Medicine,Dr. Smith,70,183,253,Discharged
+P0124,2026-02-26 02:02:00,Medium,Orthopedics,Dr. Khan,148,61,209,Discharged
+P0125,2026-02-15 04:48:00,High,Neurology,Dr. O'Brien,177,238,415,Discharged
+P0126,2026-01-29 19:37:00,Critical,Orthopedics,Dr. Murphy,123,33,156,Discharged
+P0127,2026-01-15 03:37:00,Medium,Pediatrics,Dr. Patel,86,61,147,Transferred
+P0128,2026-01-27 07:15:00,Critical,Cardiology,Dr. Patel,69,25,94,Transferred
+P0129,2026-01-26 23:46:00,High,General Medicine,Dr. Smith,70,17,87,Transferred
+P0130,2026-02-05 13:18:00,Critical,Neurology,Dr. Khan,10,192,202,Admitted
+P0131,2026-01-15 19:19:00,High,Orthopedics,Dr. Patel,57,114,171,Admitted
+P0132,2026-01-20 22:21:00,Low,Orthopedics,Dr. Murphy,134,23,157,Transferred
+P0133,2026-02-22 13:30:00,High,Orthopedics,Dr. Smith,156,85,241,Discharged
+P0134,2026-01-22 13:38:00,Critical,Cardiology,Dr. Patel,19,66,85,Admitted
+P0135,2026-01-30 12:35:00,Medium,Cardiology,Dr. Murphy,67,91,158,Discharged
+P0136,2026-02-01 10:00:00,High,Orthopedics,Dr. Smith,87,193,280,Discharged
+P0137,2026-01-14 12:17:00,Medium,Pediatrics,Dr. O'Brien,44,74,118,Transferred
+P0138,2026-01-13 10:10:00,High,Cardiology,Dr. Smith,87,224,311,Discharged
+P0139,2026-02-09 20:10:00,Critical,Orthopedics,Dr. Murphy,48,105,153,Admitted
+P0140,2026-01-16 02:26:00,High,Pediatrics,Dr. Patel,68,164,232,Discharged
+P0141,2026-01-27 18:15:00,Medium,General Medicine,Dr. O'Brien,82,121,203,Discharged
+P0142,2026-01-23 00:29:00,Low,Neurology,Dr. Patel,38,149,187,Discharged
+P0143,2026-02-17 10:18:00,Medium,Cardiology,Dr. Murphy,60,122,182,Transferred
+P0144,2026-02-24 06:40:00,High,Pediatrics,Dr. Smith,25,178,203,Admitted
+P0145,2026-01-04 20:56:00,Critical,Orthopedics,Dr. Khan,131,166,297,Admitted
+P0146,2026-01-19 06:29:00,Medium,Neurology,Dr. Khan,18,140,158,Admitted
+P0147,2026-02-27 11:18:00,Critical,Pediatrics,Dr. Smith,28,165,193,Discharged
+P0148,2026-02-10 11:14:00,Critical,Cardiology,Dr. Patel,54,191,245,Admitted
+P0149,2026-02-15 23:21:00,High,General Medicine,Dr. O'Brien,40,111,151,Discharged
+P0150,2026-02-11 09:22:00,Low,General Medicine,Dr. Murphy,120,71,191,Discharged
+P0151,2026-01-15 01:21:00,High,Pediatrics,Dr. Khan,118,171,289,Admitted
+P0152,2026-01-02 13:11:00,Critical,Neurology,Dr. Smith,139,134,273,Transferred
+P0153,2026-01-21 10:20:00,Critical,Orthopedics,Dr. Smith,51,189,240,Discharged
+P0154,2026-01-21 11:06:00,High,Cardiology,Dr. Patel,68,214,282,Admitted
+P0155,2026-02-23 07:43:00,High,Neurology,Dr. Patel,139,63,202,Transferred
+P0156,2026-02-25 04:39:00,High,General Medicine,Dr. Smith,155,152,307,Admitted
+P0157,2026-02-01 23:25:00,Medium,General Medicine,Dr. Smith,50,59,109,Transferred
+P0158,2026-02-16 15:29:00,Medium,Neurology,Dr. Khan,169,95,264,Transferred
+P0159,2026-02-16 20:25:00,Medium,Orthopedics,Dr. O'Brien,107,177,284,Discharged
+P0160,2026-01-16 03:37:00,Low,Orthopedics,Dr. Smith,77,222,299,Admitted
+P0161,2026-02-08 13:11:00,Critical,Orthopedics,Dr. Patel,139,27,166,Discharged
+P0162,2026-02-22 15:07:00,Critical,Orthopedics,Dr. Patel,160,16,176,Discharged
+P0163,2026-02-17 22:30:00,Medium,Neurology,Dr. Murphy,160,148,308,Discharged
+P0164,2026-01-21 12:55:00,Low,Cardiology,Dr. Khan,25,94,119,Admitted
+P0165,2026-02-05 11:06:00,Critical,Orthopedics,Dr. Murphy,57,137,194,Transferred
+P0166,2026-02-07 22:20:00,High,Orthopedics,Dr. Smith,175,19,194,Transferred
+P0167,2026-01-06 18:17:00,High,Orthopedics,Dr. Khan,42,38,80,Admitted
+P0168,2026-01-16 20:14:00,Medium,General Medicine,Dr. Murphy,23,151,174,Transferred
+P0169,2026-01-08 12:59:00,High,Orthopedics,Dr. O'Brien,89,57,146,Transferred
+P0170,2026-02-02 19:28:00,High,General Medicine,Dr. Khan,12,64,76,Discharged
+P0171,2026-01-01 21:30:00,Medium,General Medicine,Dr. Patel,36,238,274,Discharged
+P0172,2026-02-04 17:24:00,High,Orthopedics,Dr. O'Brien,94,135,229,Admitted
+P0173,2026-02-12 08:50:00,Medium,Orthopedics,Dr. Khan,77,34,111,Transferred
+P0174,2026-01-03 01:07:00,Critical,Neurology,Dr. Smith,179,172,351,Transferred
+P0175,2026-01-06 21:27:00,Critical,Pediatrics,Dr. Khan,91,172,263,Admitted
+P0176,2026-02-20 13:50:00,Medium,Orthopedics,Dr. Khan,28,66,94,Transferred
+P0177,2026-02-20 02:32:00,Critical,Orthopedics,Dr. Murphy,140,51,191,Transferred
+P0178,2026-02-13 13:52:00,Low,Neurology,Dr. Murphy,98,164,262,Admitted
+P0179,2026-02-28 03:39:00,Critical,Pediatrics,Dr. Murphy,92,49,141,Transferred
+P0180,2026-01-08 16:33:00,High,Neurology,Dr. O'Brien,29,229,258,Admitted
+P0181,2026-01-28 03:55:00,Medium,Pediatrics,Dr. Khan,175,109,284,Discharged
+P0182,2026-01-04 13:05:00,Medium,Neurology,Dr. Patel,20,176,196,Transferred
+P0183,2026-01-22 12:23:00,Low,Neurology,Dr. O'Brien,147,153,300,Admitted
+P0184,2026-01-25 02:50:00,High,General Medicine,Dr. Patel,65,59,124,Transferred
+P0185,2026-01-09 00:17:00,High,Orthopedics,Dr. Patel,110,71,181,Transferred
+P0186,2026-01-21 02:19:00,Critical,Cardiology,Dr. Khan,77,103,180,Admitted
+P0187,2026-01-27 16:51:00,High,Neurology,Dr. O'Brien,17,28,45,Admitted
+P0188,2026-01-09 14:42:00,Medium,Pediatrics,Dr. Murphy,158,97,255,Transferred
+P0189,2026-01-06 09:20:00,Critical,Cardiology,Dr. Murphy,55,130,185,Transferred
+P0190,2026-02-11 04:25:00,Medium,Orthopedics,Dr. Khan,55,163,218,Admitted
+P0191,2026-01-06 05:27:00,Critical,General Medicine,Dr. Patel,161,15,176,Admitted
+P0192,2026-01-12 22:00:00,High,Pediatrics,Dr. Patel,156,14,170,Transferred
+P0193,2026-02-19 08:31:00,Critical,Neurology,Dr. Smith,49,167,216,Transferred
+P0194,2026-01-27 06:34:00,Low,Orthopedics,Dr. Murphy,140,136,276,Transferred
+P0195,2026-02-13 19:18:00,High,General Medicine,Dr. Murphy,169,238,407,Admitted
+P0196,2026-01-09 01:25:00,High,Cardiology,Dr. Patel,112,85,197,Discharged
+P0197,2026-01-06 00:48:00,Low,General Medicine,Dr. Murphy,96,14,110,Admitted
+P0198,2026-02-18 20:04:00,High,Neurology,Dr. Murphy,159,23,182,Transferred
+P0199,2026-02-19 05:18:00,Critical,General Medicine,Dr. Patel,33,214,247,Admitted
+P0200,2026-01-28 03:30:00,High,General Medicine,Dr. Patel,52,21,73,Discharged
+P0201,2026-01-01 06:02:00,Low,Pediatrics,Dr. Murphy,24,235,259,Discharged
+P0202,2026-01-04 08:59:00,Low,Cardiology,Dr. Khan,161,220,381,Discharged
+P0203,2026-01-14 00:09:00,Critical,Neurology,Dr. Khan,86,15,101,Transferred
+P0204,2026-02-16 13:39:00,Medium,General Medicine,Dr. O'Brien,89,184,273,Admitted
+P0205,2026-01-11 19:53:00,Medium,General Medicine,Dr. Smith,68,75,143,Discharged
+P0206,2026-01-02 12:38:00,High,Orthopedics,Dr. Khan,15,54,69,Admitted
+P0207,2026-02-17 09:06:00,High,General Medicine,Dr. Smith,84,13,97,Admitted
+P0208,2026-02-04 16:40:00,High,Orthopedics,Dr. Patel,26,183,209,Admitted
+P0209,2026-02-16 23:28:00,Critical,Pediatrics,Dr. Murphy,55,159,214,Admitted
+P0210,2026-01-22 05:15:00,Low,Orthopedics,Dr. O'Brien,83,131,214,Discharged
+P0211,2026-02-10 15:04:00,Critical,Orthopedics,Dr. Smith,158,14,172,Transferred
+P0212,2026-01-09 08:23:00,Critical,Cardiology,Dr. Patel,66,138,204,Admitted
+P0213,2026-01-17 12:13:00,High,Pediatrics,Dr. Patel,160,54,214,Transferred
+P0214,2026-02-13 17:06:00,Critical,Orthopedics,Dr. O'Brien,127,225,352,Transferred
+P0215,2026-01-05 12:25:00,High,Cardiology,Dr. Khan,177,62,239,Admitted
+P0216,2026-01-07 09:20:00,High,Cardiology,Dr. Smith,164,87,251,Discharged
+P0217,2026-02-13 20:10:00,Low,General Medicine,Dr. Murphy,73,106,179,Admitted
+P0218,2026-02-20 13:36:00,High,Neurology,Dr. O'Brien,60,193,253,Discharged
+P0219,2026-01-27 23:42:00,High,Cardiology,Dr. O'Brien,180,215,395,Transferred
+P0220,2026-02-19 18:24:00,Critical,Neurology,Dr. Murphy,166,202,368,Transferred
+P0221,2026-01-07 19:11:00,Critical,Cardiology,Dr. O'Brien,102,110,212,Transferred
+P0222,2026-02-06 06:05:00,Critical,Pediatrics,Dr. Murphy,83,58,141,Transferred
+P0223,2026-02-18 20:20:00,Medium,General Medicine,Dr. O'Brien,18,127,145,Admitted
+P0224,2026-01-16 19:16:00,Low,Orthopedics,Dr. Murphy,99,211,310,Transferred
+P0225,2026-02-22 15:55:00,Critical,Orthopedics,Dr. Khan,21,205,226,Discharged
+P0226,2026-01-26 00:34:00,Low,General Medicine,Dr. Murphy,106,171,277,Transferred
+P0227,2026-01-09 13:42:00,Low,Cardiology,Dr. Patel,88,13,101,Transferred
+P0228,2026-03-01 00:23:00,High,General Medicine,Dr. Smith,20,72,92,Transferred
+P0229,2026-02-02 05:17:00,Medium,Neurology,Dr. Smith,62,100,162,Admitted
+P0230,2026-01-24 09:11:00,Low,Cardiology,Dr. Murphy,37,196,233,Discharged
+P0231,2026-01-07 02:38:00,High,General Medicine,Dr. Patel,61,10,71,Transferred
+P0232,2026-01-07 18:07:00,Low,Neurology,Dr. Khan,9,103,112,Discharged
+P0233,2026-02-03 11:27:00,Critical,General Medicine,Dr. Smith,44,55,99,Discharged
+P0234,2026-01-22 12:52:00,High,Pediatrics,Dr. Murphy,30,233,263,Admitted
+P0235,2026-02-22 20:58:00,Medium,General Medicine,Dr. O'Brien,97,229,326,Transferred
+P0236,2026-02-06 05:50:00,Medium,Cardiology,Dr. O'Brien,100,113,213,Admitted
+P0237,2026-02-06 20:21:00,High,General Medicine,Dr. O'Brien,125,121,246,Admitted
+P0238,2026-01-19 15:24:00,Medium,Pediatrics,Dr. Khan,158,202,360,Discharged
+P0239,2026-02-05 23:41:00,High,Cardiology,Dr. O'Brien,168,198,366,Admitted
+P0240,2026-01-06 02:51:00,Critical,Cardiology,Dr. Smith,146,139,285,Discharged
+P0241,2026-02-21 12:29:00,Critical,General Medicine,Dr. Smith,54,186,240,Discharged
+P0242,2026-01-08 01:30:00,Low,Neurology,Dr. Smith,134,224,358,Discharged
+P0243,2026-01-13 15:36:00,Critical,General Medicine,Dr. Smith,85,64,149,Discharged
+P0244,2026-01-05 22:20:00,Low,Orthopedics,Dr. Smith,103,122,225,Transferred
+P0245,2026-01-04 16:37:00,Low,General Medicine,Dr. Khan,96,124,220,Transferred
+P0246,2026-01-30 10:15:00,Low,Cardiology,Dr. Murphy,69,172,241,Discharged
+P0247,2026-01-27 15:37:00,High,Pediatrics,Dr. O'Brien,169,56,225,Admitted
+P0248,2026-01-27 05:54:00,High,Pediatrics,Dr. Murphy,155,103,258,Admitted
+P0249,2026-02-05 21:43:00,Low,Pediatrics,Dr. Patel,18,18,36,Discharged
+P0250,2026-01-21 05:36:00,Low,General Medicine,Dr. Murphy,166,32,198,Admitted
+P0251,2026-01-17 20:27:00,Medium,Orthopedics,Dr. Patel,39,124,163,Discharged
+P0252,2026-02-21 14:06:00,Low,Orthopedics,Dr. Khan,95,50,145,Admitted
+P0253,2026-02-26 22:23:00,Medium,Neurology,Dr. Patel,104,144,248,Transferred
+P0254,2026-02-25 01:49:00,Low,Orthopedics,Dr. O'Brien,49,167,216,Admitted
+P0255,2026-01-01 21:51:00,Critical,Orthopedics,Dr. Patel,22,141,163,Admitted
+P0256,2026-02-25 10:19:00,Medium,Pediatrics,Dr. Smith,100,121,221,Discharged
+P0257,2026-02-09 06:42:00,Critical,Neurology,Dr. Khan,129,160,289,Transferred
+P0258,2026-02-24 18:52:00,High,Pediatrics,Dr. Patel,80,101,181,Discharged
+P0259,2026-02-18 18:07:00,Medium,General Medicine,Dr. Smith,39,198,237,Admitted
+P0260,2026-02-28 02:52:00,Low,Orthopedics,Dr. Smith,104,157,261,Admitted
+P0261,2026-01-03 18:21:00,Medium,Cardiology,Dr. Khan,148,234,382,Transferred
+P0262,2026-02-24 08:11:00,Critical,Orthopedics,Dr. Patel,163,142,305,Transferred
+P0263,2026-02-22 04:21:00,Low,Orthopedics,Dr. Murphy,151,13,164,Discharged
+P0264,2026-02-20 20:19:00,High,Neurology,Dr. Khan,65,149,214,Discharged
+P0265,2026-02-09 13:24:00,Critical,Neurology,Dr. Murphy,14,59,73,Discharged
+P0266,2026-01-14 02:39:00,Medium,Neurology,Dr. Khan,50,104,154,Admitted
+P0267,2026-01-20 07:18:00,Low,Neurology,Dr. Smith,115,188,303,Discharged
+P0268,2026-02-10 04:49:00,Low,General Medicine,Dr. O'Brien,49,175,224,Admitted
+P0269,2026-01-06 07:53:00,Critical,Orthopedics,Dr. Khan,27,73,100,Transferred
+P0270,2026-01-05 14:16:00,Medium,General Medicine,Dr. Smith,75,188,263,Admitted
+P0271,2026-01-17 05:07:00,Medium,Orthopedics,Dr. Patel,33,109,142,Admitted
+P0272,2026-01-27 02:28:00,High,Pediatrics,Dr. O'Brien,83,26,109,Discharged
+P0273,2026-02-24 06:12:00,Critical,Neurology,Dr. Khan,131,38,169,Admitted
+P0274,2026-02-24 23:58:00,Critical,Neurology,Dr. Smith,83,166,249,Discharged
+P0275,2026-01-29 05:52:00,High,Cardiology,Dr. Khan,115,199,314,Discharged
+P0276,2026-02-21 07:01:00,High,Orthopedics,Dr. Khan,143,170,313,Admitted
+P0277,2026-02-12 02:50:00,Medium,Cardiology,Dr. Murphy,24,126,150,Transferred
+P0278,2026-01-25 19:03:00,Medium,Cardiology,Dr. Smith,176,13,189,Admitted
+P0279,2026-02-14 23:06:00,Critical,Cardiology,Dr. O'Brien,32,125,157,Transferred
+P0280,2026-01-10 10:04:00,Low,Orthopedics,Dr. O'Brien,57,135,192,Admitted
+P0281,2026-02-11 19:58:00,Low,Orthopedics,Dr. Patel,159,24,183,Admitted
+P0282,2026-01-20 20:14:00,Low,Pediatrics,Dr. Smith,130,226,356,Discharged
+P0283,2026-01-30 06:54:00,Medium,Neurology,Dr. O'Brien,12,87,99,Admitted
+P0284,2026-01-10 12:28:00,High,Pediatrics,Dr. O'Brien,104,88,192,Transferred
+P0285,2026-01-21 06:05:00,Low,Orthopedics,Dr. O'Brien,28,20,48,Discharged
+P0286,2026-01-20 11:44:00,Critical,Cardiology,Dr. O'Brien,124,233,357,Transferred
+P0287,2026-02-10 15:30:00,Critical,General Medicine,Dr. Smith,136,17,153,Admitted
+P0288,2026-02-15 12:23:00,Critical,Cardiology,Dr. Murphy,35,48,83,Admitted
+P0289,2026-02-12 09:29:00,Critical,Pediatrics,Dr. Patel,153,218,371,Transferred
+P0290,2026-01-26 22:24:00,High,Cardiology,Dr. Murphy,179,153,332,Discharged
+P0291,2026-01-12 02:24:00,Low,General Medicine,Dr. Khan,49,143,192,Admitted
+P0292,2026-02-08 18:09:00,Low,Neurology,Dr. O'Brien,46,47,93,Transferred
+P0293,2026-01-31 03:49:00,High,Orthopedics,Dr. Khan,55,157,212,Admitted
+P0294,2026-02-18 04:05:00,Low,Pediatrics,Dr. Smith,84,32,116,Discharged
+P0295,2026-02-26 22:20:00,Critical,Neurology,Dr. O'Brien,81,196,277,Admitted
+P0296,2026-01-13 15:54:00,High,General Medicine,Dr. Smith,115,226,341,Discharged
+P0297,2026-02-05 06:11:00,Low,Neurology,Dr. Smith,114,187,301,Transferred
+P0298,2026-02-08 08:30:00,High,Orthopedics,Dr. Smith,34,155,189,Admitted
+P0299,2026-01-18 09:19:00,High,Cardiology,Dr. Khan,36,201,237,Transferred
+P0300,2026-01-03 16:11:00,Medium,Orthopedics,Dr. Smith,103,104,207,Discharged
+P0301,2026-01-12 08:53:00,High,Orthopedics,Dr. Murphy,92,142,234,Discharged
+P0302,2026-01-01 10:41:00,Critical,Neurology,Dr. Murphy,10,59,69,Discharged
+P0303,2026-02-19 08:38:00,Low,Orthopedics,Dr. Smith,49,38,87,Discharged
+P0304,2026-01-04 07:58:00,Critical,Cardiology,Dr. Murphy,82,72,154,Transferred
+P0305,2026-02-25 08:13:00,Low,Orthopedics,Dr. Khan,119,48,167,Transferred
+P0306,2026-01-20 08:31:00,Critical,Cardiology,Dr. Patel,85,43,128,Discharged
+P0307,2026-02-06 20:51:00,Critical,Cardiology,Dr. Smith,90,186,276,Transferred
+P0308,2026-02-10 21:05:00,Critical,Orthopedics,Dr. Khan,59,170,229,Transferred
+P0309,2026-02-17 06:20:00,High,Neurology,Dr. Patel,89,68,157,Discharged
+P0310,2026-02-08 11:16:00,Low,Orthopedics,Dr. Patel,48,223,271,Discharged
+P0311,2026-02-16 08:28:00,Low,General Medicine,Dr. Murphy,132,19,151,Discharged
+P0312,2026-01-29 10:01:00,Low,Pediatrics,Dr. Murphy,96,89,185,Admitted
+P0313,2026-01-19 04:24:00,Medium,Orthopedics,Dr. Patel,131,63,194,Transferred
+P0314,2026-01-06 03:30:00,Low,Pediatrics,Dr. Patel,58,21,79,Admitted
+P0315,2026-01-26 08:10:00,Medium,Neurology,Dr. Murphy,60,114,174,Transferred
+P0316,2026-01-23 15:10:00,Medium,Orthopedics,Dr. O'Brien,171,48,219,Discharged
+P0317,2026-02-13 19:25:00,High,Neurology,Dr. Patel,91,183,274,Transferred
+P0318,2026-02-09 03:16:00,Medium,Orthopedics,Dr. Murphy,23,52,75,Discharged
+P0319,2026-02-03 17:26:00,Critical,Orthopedics,Dr. Smith,63,149,212,Transferred
+P0320,2026-02-28 16:43:00,Medium,Cardiology,Dr. Patel,44,150,194,Discharged
+P0321,2026-02-01 04:44:00,High,General Medicine,Dr. Khan,163,135,298,Admitted
+P0322,2026-02-18 17:56:00,Low,Neurology,Dr. Patel,30,92,122,Transferred
+P0323,2026-02-18 22:56:00,High,Cardiology,Dr. O'Brien,66,228,294,Admitted
+P0324,2026-02-16 03:22:00,High,Neurology,Dr. Murphy,93,199,292,Admitted
+P0325,2026-02-12 00:20:00,Low,Orthopedics,Dr. O'Brien,36,37,73,Admitted
+P0326,2026-02-19 08:04:00,Critical,Cardiology,Dr. Smith,23,121,144,Admitted
+P0327,2026-01-21 11:05:00,Critical,Orthopedics,Dr. Patel,140,60,200,Admitted
+P0328,2026-01-05 02:54:00,Medium,Neurology,Dr. O'Brien,5,26,31,Admitted
+P0329,2026-03-01 21:52:00,Critical,Cardiology,Dr. O'Brien,140,26,166,Transferred
+P0330,2026-01-23 18:06:00,Critical,Neurology,Dr. Patel,140,210,350,Discharged
+P0331,2026-01-02 19:10:00,Low,General Medicine,Dr. Patel,19,98,117,Transferred
+P0332,2026-02-17 00:20:00,Critical,Neurology,Dr. O'Brien,42,128,170,Transferred
+P0333,2026-02-23 12:14:00,Critical,Neurology,Dr. Khan,35,106,141,Admitted
+P0334,2026-01-23 00:57:00,Medium,Orthopedics,Dr. Khan,125,165,290,Admitted
+P0335,2026-01-09 14:40:00,Low,Cardiology,Dr. O'Brien,92,219,311,Transferred
+P0336,2026-01-10 02:50:00,Critical,Orthopedics,Dr. Smith,38,169,207,Admitted
+P0337,2026-01-29 03:12:00,High,Orthopedics,Dr. Murphy,15,100,115,Discharged
+P0338,2026-01-18 21:39:00,Low,Neurology,Dr. Murphy,45,151,196,Admitted
+P0339,2026-02-28 21:13:00,High,Neurology,Dr. Smith,41,89,130,Transferred
+P0340,2026-01-17 03:10:00,Low,Pediatrics,Dr. Khan,25,56,81,Transferred
+P0341,2026-02-26 08:36:00,Critical,Pediatrics,Dr. Patel,152,194,346,Transferred
+P0342,2026-01-16 10:01:00,Medium,General Medicine,Dr. Murphy,94,187,281,Transferred
+P0343,2026-02-10 13:28:00,Medium,Orthopedics,Dr. Smith,176,193,369,Discharged
+P0344,2026-02-03 23:06:00,Medium,Pediatrics,Dr. Murphy,22,50,72,Discharged
+P0345,2026-01-22 16:07:00,High,Neurology,Dr. Patel,106,186,292,Discharged
+P0346,2026-02-28 13:39:00,Critical,Pediatrics,Dr. Murphy,156,92,248,Admitted
+P0347,2026-02-01 00:38:00,Critical,Orthopedics,Dr. Patel,167,52,219,Discharged
+P0348,2026-01-21 10:15:00,Medium,Orthopedics,Dr. Patel,114,47,161,Transferred
+P0349,2026-02-28 10:59:00,High,Orthopedics,Dr. Patel,33,44,77,Transferred
+P0350,2026-02-11 06:01:00,Medium,Cardiology,Dr. Smith,141,172,313,Transferred
+P0351,2026-02-16 04:56:00,Medium,Orthopedics,Dr. Smith,117,54,171,Admitted
+P0352,2026-02-02 00:42:00,Medium,Pediatrics,Dr. Smith,69,131,200,Discharged
+P0353,2026-01-25 14:33:00,Medium,Pediatrics,Dr. Patel,175,208,383,Discharged
+P0354,2026-01-14 15:47:00,Low,General Medicine,Dr. Murphy,138,78,216,Admitted
+P0355,2026-01-05 21:35:00,Critical,General Medicine,Dr. Murphy,132,109,241,Discharged
+P0356,2026-01-06 15:33:00,High,Neurology,Dr. Murphy,70,135,205,Transferred
+P0357,2026-01-27 02:09:00,Low,Cardiology,Dr. Smith,93,215,308,Discharged
+P0358,2026-01-28 21:42:00,Low,Neurology,Dr. O'Brien,163,191,354,Transferred
+P0359,2026-01-02 01:03:00,Critical,Neurology,Dr. Khan,107,153,260,Transferred
+P0360,2026-01-08 17:11:00,Medium,Neurology,Dr. O'Brien,117,95,212,Discharged
+P0361,2026-03-01 21:02:00,Critical,Cardiology,Dr. O'Brien,142,150,292,Discharged
+P0362,2026-02-19 21:54:00,Critical,Pediatrics,Dr. Khan,82,193,275,Admitted
+P0363,2026-01-21 22:52:00,Medium,General Medicine,Dr. O'Brien,96,174,270,Discharged
+P0364,2026-01-05 16:20:00,High,Cardiology,Dr. Murphy,117,70,187,Admitted
+P0365,2026-01-19 07:10:00,Medium,Pediatrics,Dr. Murphy,93,180,273,Transferred
+P0366,2026-01-02 21:47:00,High,Pediatrics,Dr. Khan,144,30,174,Admitted
+P0367,2026-01-20 10:48:00,High,Orthopedics,Dr. Patel,97,168,265,Admitted
+P0368,2026-01-11 09:33:00,Critical,Neurology,Dr. Patel,49,155,204,Discharged
+P0369,2026-01-28 10:18:00,High,Orthopedics,Dr. Smith,88,71,159,Admitted
+P0370,2026-02-12 18:21:00,Low,General Medicine,Dr. Smith,13,239,252,Discharged
+P0371,2026-02-18 20:43:00,Low,General Medicine,Dr. O'Brien,49,60,109,Admitted
+P0372,2026-01-08 14:55:00,Medium,General Medicine,Dr. O'Brien,54,28,82,Admitted
+P0373,2026-02-18 20:45:00,Critical,Orthopedics,Dr. Khan,17,235,252,Transferred
+P0374,2026-01-15 19:49:00,Low,Neurology,Dr. Khan,135,53,188,Admitted
+P0375,2026-01-27 10:17:00,Low,Neurology,Dr. O'Brien,107,88,195,Discharged
+P0376,2026-02-15 07:33:00,High,Neurology,Dr. Khan,81,64,145,Discharged
+P0377,2026-02-02 19:21:00,Low,Neurology,Dr. O'Brien,155,203,358,Admitted
+P0378,2026-02-03 14:43:00,Medium,Orthopedics,Dr. O'Brien,51,227,278,Admitted
+P0379,2026-01-18 12:56:00,Medium,Orthopedics,Dr. Murphy,68,195,263,Admitted
+P0380,2026-02-14 17:34:00,Low,Neurology,Dr. Patel,23,238,261,Discharged
+P0381,2026-02-16 23:36:00,High,Orthopedics,Dr. Smith,135,184,319,Transferred
+P0382,2026-01-02 17:34:00,Medium,Cardiology,Dr. Smith,147,203,350,Transferred
+P0383,2026-02-24 14:40:00,High,Orthopedics,Dr. O'Brien,153,37,190,Transferred
+P0384,2026-01-04 01:23:00,Critical,General Medicine,Dr. Patel,36,181,217,Discharged
+P0385,2026-02-14 13:59:00,Critical,Cardiology,Dr. Murphy,64,76,140,Transferred
+P0386,2026-01-12 18:39:00,Medium,Neurology,Dr. O'Brien,133,193,326,Discharged
+P0387,2026-01-12 04:48:00,High,Orthopedics,Dr. Smith,58,197,255,Admitted
+P0388,2026-02-07 19:25:00,Medium,Orthopedics,Dr. Patel,130,122,252,Discharged
+P0389,2026-01-10 23:06:00,Critical,Neurology,Dr. O'Brien,132,178,310,Transferred
+P0390,2026-02-26 22:48:00,Critical,General Medicine,Dr. Khan,130,214,344,Transferred
+P0391,2026-03-01 07:19:00,Low,Neurology,Dr. Smith,134,89,223,Discharged
+P0392,2026-02-14 07:02:00,Low,General Medicine,Dr. Smith,146,106,252,Discharged
+P0393,2026-01-02 21:45:00,Medium,Orthopedics,Dr. Patel,56,54,110,Discharged
+P0394,2026-01-26 11:45:00,Critical,Cardiology,Dr. Murphy,77,223,300,Transferred
+P0395,2026-01-23 04:27:00,Medium,Pediatrics,Dr. O'Brien,146,194,340,Transferred
+P0396,2026-02-01 00:01:00,High,Cardiology,Dr. Smith,60,46,106,Admitted
+P0397,2026-01-26 05:32:00,High,Cardiology,Dr. Khan,156,19,175,Admitted
+P0398,2026-02-26 11:24:00,Critical,General Medicine,Dr. Patel,123,158,281,Transferred
+P0399,2026-01-14 12:24:00,Medium,Neurology,Dr. Murphy,120,157,277,Transferred
+P0400,2026-02-01 07:40:00,Critical,Neurology,Dr. Smith,128,83,211,Transferred
+P0401,2026-02-12 21:59:00,Critical,Cardiology,Dr. Khan,162,15,177,Transferred
+P0402,2026-01-10 19:07:00,High,Pediatrics,Dr. O'Brien,132,154,286,Transferred
+P0403,2026-01-11 03:57:00,Low,Orthopedics,Dr. Khan,168,50,218,Admitted
+P0404,2026-02-02 05:02:00,High,Neurology,Dr. Murphy,87,25,112,Admitted
+P0405,2026-02-02 19:54:00,High,Pediatrics,Dr. Patel,102,66,168,Transferred
+P0406,2026-01-28 09:05:00,High,Cardiology,Dr. Patel,93,159,252,Admitted
+P0407,2026-02-15 07:34:00,Critical,Pediatrics,Dr. Murphy,71,185,256,Admitted
+P0408,2026-01-25 16:54:00,High,Cardiology,Dr. O'Brien,18,47,65,Admitted
+P0409,2026-01-06 09:53:00,Critical,Pediatrics,Dr. Murphy,43,100,143,Transferred
+P0410,2026-01-31 08:15:00,Low,Orthopedics,Dr. Murphy,45,44,89,Discharged
+P0411,2026-02-22 13:41:00,Medium,Cardiology,Dr. Smith,124,219,343,Transferred
+P0412,2026-01-29 15:20:00,High,General Medicine,Dr. Patel,85,51,136,Transferred
+P0413,2026-01-07 04:53:00,Critical,Neurology,Dr. Smith,55,140,195,Discharged
+P0414,2026-02-23 18:39:00,Medium,Pediatrics,Dr. Khan,36,83,119,Admitted
+P0415,2026-02-02 13:29:00,High,General Medicine,Dr. Patel,32,184,216,Transferred
+P0416,2026-01-27 08:54:00,Critical,Cardiology,Dr. Khan,138,177,315,Transferred
+P0417,2026-01-31 00:07:00,Critical,General Medicine,Dr. Patel,85,203,288,Admitted
+P0418,2026-01-26 19:08:00,Low,Cardiology,Dr. Smith,155,208,363,Discharged
+P0419,2026-02-05 03:18:00,Critical,Pediatrics,Dr. Patel,162,12,174,Discharged
+P0420,2026-02-24 12:21:00,Low,Orthopedics,Dr. Smith,59,122,181,Transferred
+P0421,2026-02-08 17:47:00,Critical,Neurology,Dr. Khan,110,198,308,Discharged
+P0422,2026-01-14 23:05:00,Low,Pediatrics,Dr. O'Brien,111,39,150,Discharged
+P0423,2026-01-14 00:52:00,Critical,Pediatrics,Dr. Smith,50,160,210,Transferred
+P0424,2026-02-26 04:55:00,Medium,Neurology,Dr. Khan,143,82,225,Transferred
+P0425,2026-02-21 23:36:00,Medium,Neurology,Dr. O'Brien,47,152,199,Discharged
+P0426,2026-02-11 20:07:00,Critical,Cardiology,Dr. Khan,68,89,157,Transferred
+P0427,2026-01-22 01:48:00,High,Pediatrics,Dr. Murphy,62,33,95,Admitted
+P0428,2026-01-13 06:28:00,Low,Cardiology,Dr. O'Brien,20,115,135,Admitted
+P0429,2026-02-05 20:51:00,High,Orthopedics,Dr. Smith,112,73,185,Admitted
+P0430,2026-02-10 12:10:00,Critical,Orthopedics,Dr. Smith,65,169,234,Admitted
+P0431,2026-01-02 11:01:00,Critical,Cardiology,Dr. Smith,80,46,126,Transferred
+P0432,2026-02-24 08:52:00,Low,General Medicine,Dr. O'Brien,8,102,110,Transferred
+P0433,2026-02-05 20:41:00,High,Orthopedics,Dr. Smith,54,63,117,Discharged
+P0434,2026-02-09 15:58:00,Critical,Orthopedics,Dr. Patel,55,146,201,Discharged
+P0435,2026-02-11 22:42:00,High,General Medicine,Dr. O'Brien,57,22,79,Admitted
+P0436,2026-01-07 19:56:00,Low,Pediatrics,Dr. Khan,115,68,183,Admitted
+P0437,2026-01-15 08:14:00,High,Orthopedics,Dr. Murphy,8,185,193,Discharged
+P0438,2026-01-18 19:03:00,High,Pediatrics,Dr. Khan,157,16,173,Transferred
+P0439,2026-01-06 01:21:00,Medium,Orthopedics,Dr. O'Brien,111,62,173,Admitted
+P0440,2026-02-27 04:51:00,Critical,Orthopedics,Dr. Murphy,58,170,228,Discharged
+P0441,2026-02-14 23:27:00,Critical,Orthopedics,Dr. O'Brien,95,238,333,Discharged
+P0442,2026-03-01 05:56:00,Critical,Pediatrics,Dr. Patel,99,196,295,Admitted
+P0443,2026-03-01 07:36:00,Medium,Neurology,Dr. Patel,179,216,395,Transferred
+P0444,2026-02-15 05:37:00,Medium,Pediatrics,Dr. Murphy,126,192,318,Discharged
+P0445,2026-02-13 13:27:00,Critical,Neurology,Dr. Murphy,68,232,300,Admitted
+P0446,2026-01-13 21:17:00,Critical,Orthopedics,Dr. Murphy,154,140,294,Admitted
+P0447,2026-02-06 06:24:00,Low,Cardiology,Dr. Khan,136,26,162,Transferred
+P0448,2026-01-08 13:28:00,Low,General Medicine,Dr. Patel,7,162,169,Admitted
+P0449,2026-02-26 00:37:00,High,Cardiology,Dr. Patel,8,203,211,Transferred
+P0450,2026-02-24 18:09:00,Low,Orthopedics,Dr. Khan,13,49,62,Discharged
+P0451,2026-01-01 03:20:00,Critical,Cardiology,Dr. O'Brien,178,126,304,Transferred
+P0452,2026-02-05 09:00:00,Critical,General Medicine,Dr. Murphy,96,190,286,Transferred
+P0453,2026-01-01 22:35:00,High,General Medicine,Dr. O'Brien,17,178,195,Transferred
+P0454,2026-01-02 16:50:00,High,Neurology,Dr. O'Brien,153,40,193,Discharged
+P0455,2026-02-02 14:59:00,Medium,Orthopedics,Dr. Khan,30,68,98,Transferred
+P0456,2026-01-22 14:12:00,High,Neurology,Dr. O'Brien,98,237,335,Discharged
+P0457,2026-02-24 12:23:00,Low,General Medicine,Dr. Murphy,100,199,299,Transferred
+P0458,2026-01-16 01:34:00,High,Cardiology,Dr. Smith,152,74,226,Transferred
+P0459,2026-01-08 00:57:00,Critical,General Medicine,Dr. Murphy,130,86,216,Transferred
+P0460,2026-02-03 04:47:00,Medium,Pediatrics,Dr. Smith,25,213,238,Transferred
+P0461,2026-01-05 08:32:00,Critical,Pediatrics,Dr. Khan,156,163,319,Transferred
+P0462,2026-02-17 11:52:00,High,Cardiology,Dr. O'Brien,60,49,109,Transferred
+P0463,2026-02-21 15:39:00,High,Cardiology,Dr. O'Brien,105,171,276,Transferred
+P0464,2026-01-16 14:44:00,Medium,Pediatrics,Dr. Smith,57,107,164,Transferred
+P0465,2026-01-18 16:05:00,Medium,Pediatrics,Dr. O'Brien,155,103,258,Discharged
+P0466,2026-02-25 12:17:00,Critical,Pediatrics,Dr. Patel,13,210,223,Transferred
+P0467,2026-01-09 21:50:00,Low,Neurology,Dr. Patel,96,62,158,Transferred
+P0468,2026-02-25 09:18:00,Medium,Pediatrics,Dr. Patel,146,79,225,Transferred
+P0469,2026-02-22 00:53:00,High,General Medicine,Dr. Murphy,44,21,65,Discharged
+P0470,2026-01-11 01:28:00,Low,General Medicine,Dr. Patel,160,23,183,Discharged
+P0471,2026-02-26 14:04:00,Critical,Cardiology,Dr. Murphy,121,168,289,Admitted
+P0472,2026-01-14 11:12:00,Critical,Cardiology,Dr. Smith,73,65,138,Transferred
+P0473,2026-03-01 00:31:00,Low,Orthopedics,Dr. Smith,77,24,101,Admitted
+P0474,2026-02-08 21:16:00,Medium,Orthopedics,Dr. Patel,119,136,255,Admitted
+P0475,2026-01-07 04:53:00,Critical,Cardiology,Dr. O'Brien,148,79,227,Discharged
+P0476,2026-01-28 08:39:00,Critical,Orthopedics,Dr. Khan,7,42,49,Admitted
+P0477,2026-01-12 23:34:00,Critical,Neurology,Dr. Murphy,173,205,378,Transferred
+P0478,2026-02-06 16:01:00,High,Pediatrics,Dr. Smith,113,153,266,Discharged
+P0479,2026-01-16 11:24:00,Low,Cardiology,Dr. O'Brien,126,42,168,Transferred
+P0480,2026-01-01 10:51:00,High,Orthopedics,Dr. Murphy,121,182,303,Discharged
+P0481,2026-01-16 06:32:00,High,General Medicine,Dr. O'Brien,9,84,93,Transferred
+P0482,2026-02-08 07:07:00,Critical,Pediatrics,Dr. Khan,52,169,221,Admitted
+P0483,2026-01-17 09:23:00,Low,General Medicine,Dr. Murphy,82,207,289,Admitted
+P0484,2026-01-01 07:28:00,Medium,Neurology,Dr. Murphy,48,69,117,Admitted
+P0485,2026-02-24 14:11:00,Low,Cardiology,Dr. Khan,16,86,102,Discharged
+P0486,2026-02-05 18:53:00,Low,General Medicine,Dr. Smith,118,167,285,Discharged
+P0487,2026-02-14 20:56:00,Critical,General Medicine,Dr. O'Brien,20,233,253,Discharged
+P0488,2026-01-23 15:21:00,Critical,Cardiology,Dr. Khan,171,42,213,Transferred
+P0489,2026-01-12 17:03:00,Critical,Orthopedics,Dr. Patel,50,26,76,Admitted
+P0490,2026-01-30 01:25:00,Critical,Cardiology,Dr. Murphy,135,96,231,Admitted
+P0491,2026-01-11 02:12:00,Critical,Pediatrics,Dr. Patel,50,146,196,Transferred
+P0492,2026-02-23 04:12:00,Critical,Pediatrics,Dr. Murphy,138,25,163,Transferred
+P0493,2026-01-20 07:48:00,Critical,Neurology,Dr. Patel,157,208,365,Admitted
+P0494,2026-01-20 13:51:00,Low,Orthopedics,Dr. Khan,7,12,19,Transferred
+P0495,2026-01-03 21:29:00,Medium,Cardiology,Dr. O'Brien,122,227,349,Discharged
+P0496,2026-01-21 04:49:00,Medium,Orthopedics,Dr. O'Brien,119,165,284,Discharged
+P0497,2026-02-22 07:31:00,Low,General Medicine,Dr. Smith,52,219,271,Discharged
+P0498,2026-01-01 13:11:00,Medium,Neurology,Dr. Murphy,160,147,307,Discharged
+P0499,2026-02-01 07:41:00,High,General Medicine,Dr. Smith,105,59,164,Discharged
+P0500,2026-02-25 01:31:00,Medium,Pediatrics,Dr. Smith,87,128,215,Discharged
