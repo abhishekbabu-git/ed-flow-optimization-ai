@@ -76,7 +76,11 @@ Displays:
 - Pandas, NumPy  
 - Machine Learning (classification & forecasting models)  
 - Streamlit (for dashboard)  
-- Data visualisation libraries (Matplotlib, etc.)  
+- Data visualisation libraries (Matplotlib, etc.)
+
+## Documentation
+- [System Components](docs/system_components.md)
+- [Ethics and Prototype Declaration](docs/ethics_and_prototype_declaration.md)
 
 
 
